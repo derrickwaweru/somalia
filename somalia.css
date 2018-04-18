@@ -1,15 +1,15 @@
 
 
 body {
-  font-family: 'Amaranth';font-size: 22px;
+  font-family: 'Lato';font-size: 22px;
 
   /*text-align: center;*/
 }
 .button {
-    background-color: white;
+    background-color:  #005591;
 
-    color: #005591;
-    /*padding: 15px 32px;*/
+    color:white;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
@@ -18,7 +18,9 @@ body {
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    border-color: orange;
+    border-color: white;
+    /*padding:5px;*/
+
 }
 
 .button1 {
@@ -36,6 +38,7 @@ body {
 .sint a{
   background: #005591;
   color: white;
+
 }
 .high {
   background: #005591;
@@ -44,16 +47,27 @@ body {
 .mint{
   background: #005591;
   color: white;
-  margin:30px;
+  margin:45px;
 }
+/*.mint img{
+  border-radius: 50%;
+  border-color: black;
+
+}*/
 .sint{
   background: #005591;
   color: white;
+
 }
 .azam{
   color:#005591;
   padding-bottom:50px;*/
   padding-top:100px;
+
+}
+
+.azam h4 a {
+  text-decoration: none;
 
 }
 .max{
@@ -83,4 +97,23 @@ body {
 .mziki{
   padding-top: 20px;
   padding-bottom: 15px;
+}
+
+.circular-image{
+  border-radius: 50%;
+}
+.logo{
+  margin-left:20px;
+}
+.top {
+  color:#005591;
+}
+.button2{
+  background: white;
+  color:#005591;
+  border-color: #fd591f
+}
+.decor a:hover{
+color: white;
+text-decoration: none;
 }
