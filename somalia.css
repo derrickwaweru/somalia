@@ -1,119 +1,331 @@
-
-
 body {
-  font-family: 'Lato';font-size: 22px;
-
-  /*text-align: center;*/
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  background-color: #ffffff;
+  margin: 0px;
 }
+html,body,p,footer,div,img,span,h4,h6,h5,h1,h3,h2{
+  font-family: 'Lato', sans-serif;
+}
+/*body h4{
+  font-family: 'Lato', sans-serif;
+}*/
+
 .button {
-    background-color:  #005591;
-
-    color:white;
-    padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
-    /*display: inline-block;*/
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    border-color: white;
-    /*padding:5px;*/
-
+  background-color: #005591;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline-block;*/
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  border-color: white;
+  /*padding:5px;*/
 }
 
 .button1 {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   text-align: right;
-   padding-bottom: 20px;
-}
-.sint a{
-  background: #005591;
-  color: white;
 
-}
+
 .high {
+  padding-top: 35px;
   background: #005591;
   color: white;
+  padding-left: 60px;
+  /*font-family: 'Lato', sans-serif;*/
 }
-.mint{
-  background: #005591;
-  color: white;
-  margin:45px;
-}
-/*.mint img{
-  border-radius: 50%;
-  border-color: black;
 
+
+.mint {
+  background: #005591;
+  color: white;
+  margin: 47px;
+  margin-top: 4px;
+}
+
+
+
+.azam {
+  color: #005591;
+  padding-bottom: 0px;
+   padding-top: 0px;
+   padding-left: 0px;
+}
+
+.azam h4 a, a:hover {
+  text-decoration: none;
+  color:#005591;
+}
+
+#max {
+  padding-bottom: 12px;
+  padding-top: 10px;
+  background:#005591;
+  color:white;
+
+}
+/*#feet{
+  padding-left: 0px;
+  padding-right: 0px;
 }*/
 .sint{
-  background: #005591;
-  color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 0.9em;
 
 }
-.azam{
-  color:#005591;
-  padding-bottom:50px;*/
-  padding-top:100px;
-
-}
-
-.azam h4 a {
+.sint a{
+  color:white;
   text-decoration: none;
-
+  font-size: 1.2em;
 }
-.max{
-  padding-bottom: 5px;
-  margin-bottom: 70px;
-}
-.misty{
-  color:#005591;
-  padding-bottom:20px;
-  padding-top:100px;
-}
-.mzito{
-  padding-top:100px;
-
-}
-.mzito img{
-  height:130px;
-  width:170px;
-}
-#polo{
-  height:60px;
-}
-#polo img{
-  height:25px;
-  width:25px;
-}
-.mziki{
-  padding-top: 20px;
-  padding-bottom: 15px;
+.sint a:hover{
+  color:white;
+  text-decoration: none;
 }
 
-.circular-image{
+
+.misty {
+  color: #005591;
+  padding-bottom: 20px;
+  padding-top: 100px;
+  font-size: 1.3em;
+
+}
+
+.mzito {
+  padding-top: 100px;
+}
+
+.mzito img {
+  height: 130px;
+  width: 170px;
+}
+
+#polo {
+  height: 60px;
+}
+
+#polo img {
+  height: 25px;
+  width: 25px;
+}
+
+.circular-image {
   border-radius: 50%;
 }
-.logo{
-  margin-left:20px;
+
+.logo {
+  margin-right: 50px;
 }
+
 .top {
-  color:#005591;
+  color: #005591;
 }
-.button2{
+
+.button2 {
   background: white;
-  color:#005591;
-  border-color: #fd591f
+  color: #005591;
+  border-color: #fd591f;
 }
-.decor a:hover{
-color: white;
-text-decoration: none;
+
+.decor{
+  width:100%;
+}
+
+.decor a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.zoom {
+  color: #fd591f;
+  font-size: 2.5em;
+  margin-left: 10px;
+  height: 15px;
+  width: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.con {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 100px;
+  width: 120px;
+  margin-left: 50px;
+}
+
+.custom li a {
+  /*font-size: 1.5em;*/
+  color: #005591;
+  text-decoration: none;
+  margin-top: 50px;
+  padding-left: 100px;
+  /*margin-left:50px;*/
+}
+
+.search {
+  color: #fd591f;
+  /*height:20px;
+  width:30px;*/
+  font-size: 1.5em;
+}
+
+.iconic {
+  color: #fd591f;
+  border-radius: 50%;
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border: 1px solid #909090;
+  border-radius: 50px;
+  margin-right: 5px;
+  border-color: #fd591f;
+}
+
+.social-links a i {
+  padding: 7px 5px;
+  font-size: 10px;
+  color: #fd591f;
+}
+
+#no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+span.carousel-control-prev-icon{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px:
+}
+span.carousel-control-next-icon{
+  width:100px;
+  height: 100px;
+}
+.carousel-caption d-none d-md-block{
+  color: white;
+}
+.watoto{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left:10px;
+}
+#fonts{
+  font-weight: bold;
+  text-align: left;
+  font-size: 1.5em;
+}
+.one{
+  padding-left: 25px;
+}
+#woman{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 35px;
+}
+.blog {
+  padding-top: 35px;
+  background: #005591;
+  color: white;
+  padding-left: 60px;
+  padding-bottom: 110px;
+  padding-right: 60px;
+  /*font-family: 'Lato', sans-serif;*/
+}
+.explore{
+
+  text-align: right;
+  color:#005591;
+}
+.direct {
+  color: #fd591f;
+  font-size: 1em;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding-top: 4px;
+
+}
+.highpoint{
+
+  padding-top: 35px;
+  background: #005591;
+  color: white;
+}
+#picha{
+  position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+    /* padding-left: 15px; */
+}
+#subscribe{
+  padding-top: 70px;
+}
+#chat-links {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 20px;
+  color:white;
+
+}
+
+#chat-links a {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 3px solid ;
+  border-radius: 100px;
+  margin-right: 5px;
+  border-color: white;
+  margin: 20px;
+  /*color:white;*/
+
+}
+
+#chat-links a i {
+  padding: 70px 5px;
+  font-size: 60px;
+  color:white;
+}
+.blue{
+  background: #005591;
+}
+#chats{
+  padding-top:10px;
+}
+.azamu {
+  color: #005591;
+  padding-bottom: 0px;
+   padding-top: 100px;
+   padding-left: 0px;
+}
+#misty2{
+  padding-top: 50px;
+}
+#man{
+  padding-left: 0px;
+  padding-right: 0px;
 }
