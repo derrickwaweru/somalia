@@ -158,6 +158,14 @@ html,body,p,footer,div,img,span,h4,h6,h5,h1,h3,h2{
 .con {
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-left: 0px;
+  padding-right:0px;
+  background-color: white;
+
+}
+
+#navs{
+  background: white
 }
 
 .logo {
@@ -328,4 +336,7 @@ span.carousel-control-next-icon{
 #man{
   padding-left: 0px;
   padding-right: 0px;
+}
+#feet{
+  padding-left: 70px;
 }
