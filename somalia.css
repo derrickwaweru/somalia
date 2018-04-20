@@ -4,6 +4,64 @@ body {
   background-color: #ffffff;
   margin: 0px;
 }
+.navbar-inverse .navbar-toggle-always {
+  border-color: #333333;
+}
+.navbar-inverse .navbar-toggle-always:hover,
+.navbar-inverse .navbar-toggle-always:focus {
+  background-color: #333333;
+}
+.navbar-inverse .navbar-toggle-always .icon-bar-always {
+  background-color: #ffffff;
+}
+.navbar-toggle-always {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.navbar-toggle-always:focus {
+  outline: 0;
+}
+.navbar-toggle-always .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle-always .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+@media (min-width: 768px) {
+  .navbar-toggle-always {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-toggle-always {
+    display: block!important;
+    background-color: transparent;
+    border: 1px solid #333333;
+  }
+}
+.navbar-toggle-always .icon-bar-always {
+  width: 22px;
+  height: 2px;
+  border: 1px solid #fff;
+  display: block;
+  border-radius: 1px;
+}
+.navbar-toggle-always .icon-bar-always + .icon-bar-always {
+  margin-top: 4px;
+}
 html,body,p,footer,div,img,span,h4,h6,h5,h1,h3,h2{
   font-family: 'Lato', sans-serif;
 }
@@ -36,6 +94,7 @@ html,body,p,footer,div,img,span,h4,h6,h5,h1,h3,h2{
 
 .high {
   padding-top: 35px;
+  padding-bottom: 35px;
   background: #005591;
   color: white;
   padding-left: 60px;
@@ -339,4 +398,16 @@ span.carousel-control-next-icon{
 }
 #feet{
   padding-left: 70px;
+}
+hr{
+  background-color:#fd591f;
+    margin-left: 0px;
+    margin-right: 0px;
+    width:100px;
+}
+#har{
+  background-color:white;
+    margin-left: 0px;
+    margin-right: 0px;
+    width:100px;
 }
