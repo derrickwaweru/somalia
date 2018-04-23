@@ -9,10 +9,6 @@ html,body,p,footer,div,img,span,h4,h6,h5,h1,h3,h2{
   font-family: 'Lato', sans-serif;
 }
 
-.navbar-toggler{
-  
-}
-
 .navbarsupportedContent ul li a{
   display: inline;
 }
@@ -352,4 +348,9 @@ hr{
     margin-left: 0px;
     margin-right: 0px;
     width:100px;
+}
+@media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }
